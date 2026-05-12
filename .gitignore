@@ -1,0 +1,10 @@
+output/
+.DS_Store
+.vscode/
+.idea/
+*.swp
+.env
+.env.local
+*.credentials.json
+google-ads.yaml
+.google-ads.yaml
