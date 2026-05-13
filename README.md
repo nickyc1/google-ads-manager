@@ -1,5 +1,9 @@
 # google-ads-manager
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+
+
 A [Claude Code](https://claude.com/claude-code) skill that runs your Google Ads account on a profit-first playbook.
 
 It pulls performance via the Google Ads MCP, evaluates campaigns against circuit-breaker safety rails, and proposes changes for you to approve before applying. Designed to operate on a weekly cadence with daily safety checks.
