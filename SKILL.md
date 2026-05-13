@@ -111,6 +111,17 @@ The skill operates in propose-then-approve mode by default:
 
 The only exception is circuit-breaker triggers, where the agent acts first and notifies after.
 
+## Related skills
+
+| Skill | Relationship |
+|---|---|
+| [`paid-ads-context`](https://github.com/nickyc1/paid-ads-context) | Reads section 2 (Google Ads IDs), 3 (P:S target, budget caps, circuit breakers), 6 (approval policy) |
+| [`attribution-modeling`](https://github.com/nickyc1/attribution-modeling) | Provides the profit table this skill reads for the profit-to-spend column |
+| [`paid-channel-recap`](https://github.com/nickyc1/paid-channel-recap) | Stakeholder-facing twin — same GAQL data, redacted for external sharing |
+| [`weekly-ops-review`](https://github.com/nickyc1/weekly-ops-review) | Pulls this skill's weekly outputs into the one-page Monday review |
+| [`ad-creative`](https://github.com/nickyc1/ad-creative) | Consumes this skill's search-term mining output to inform new keyword and RSA copy |
+| [`ppc-profit-intelligence`](https://github.com/nickyc1/ppc-profit-intelligence) | Free starter version for accounts not yet on the full profit pipeline |
+
 ## References
 
 - `references/mcp-setup.md` — installing and configuring the Google Ads MCP
